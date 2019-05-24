@@ -8,4 +8,10 @@
    echo $i;
    echo "\n";
    }
+   
+   $k = "Hoy es un buen día";
+   $p = "para ir a la graduación.";
+   echo $k."\n".$p."\n";
+   
+  
 ?>
