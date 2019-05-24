@@ -2,7 +2,7 @@
    echo "Hola mundo\n";
    echo "Hace un buen día para estudiar TIC\n";
    
-   for ($i; $i <= 10; $i++)
+   for ($i = 0; $i <= 10; $i++)
    {
    echo $i;
    }
