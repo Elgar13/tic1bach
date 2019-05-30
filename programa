@@ -1,13 +1,21 @@
 <?php
 
 
-for ($a =2; $a<70; $a = $a+2)
+for ($a =0; $a<1001; $a = $a+1)
 {
-    if (is_float($a/3))
+    //if (is_float($a/3))
+   // {
+   // echo $a."\n";
+   // }
+    
+    if(($a/3!= floor($a/3)) && ($a/2!= floor($a/2))  && ($a/5!= floor($a/5)) && ($a/7!= floor($a/7)))
     {
     echo $a."\n";
     }
-
 }
+
+
+
+
 
 ?>
