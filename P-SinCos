@@ -1,0 +1,22 @@
+<?php
+
+echo "Cosenos\n";
+for ($a =0; $a<=90; $a = $a+1)
+{
+    
+    echo (cos (deg2rad($a)) )."\n";
+}
+
+echo "Senos\n";
+
+for ($a =0; $a<=90; $a = $a+1)
+{
+    
+    echo (sin (deg2rad($a)) )."\n";
+}
+
+
+
+
+
+?>
